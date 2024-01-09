@@ -10,8 +10,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: auto;
-  height: 500px;
+  width: 1200px;
+  height: 95vh;
   margin: 40px;
   border-radius: 10px;
 }
@@ -64,38 +64,39 @@
 }
 .welcome{
     text-align: left;
-    background-image: url('images/Vectorrr.png') ;
+    background-image:  url('images/Vectorrr.png') ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    width: auto;
-    height: 500px;
+    background-size: cover;
+    width: 1200px;
+    height: 95vh;
     display: flex;
     justify-content: space-between;
-    padding-right: 110px;
+    margin: auto;
+    border-radius: 10px;
 }
 .second-welcome > h4{
-    color: #FFF;
-    font-size: 50px;
-    font-weight: 700;
-    padding-top: 150px;
-    margin-left: 180px;
-    line-height: 50px; /* 137.5% */
-    letter-spacing: 5px;
-    filter: brightness(-2);
+  color: #FFF;
+  margin-top: 150px;
+  padding-left: 150px;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px; /* 137.5% */
+  letter-spacing: 4px;
 }
 .second-welcome > p{
     color: rgba(255, 255, 255, 0.80);
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    margin-left: 180px;
+    margin-left: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-right: 50px;
 }
 .second-welcome .clas{
-    margin-left: 190px;
-    width: 90px;
+    margin-left: 132px;
+    width: 100px;
     text-align: center;
     font-size: 13px;
     font-weight: 400;
@@ -107,17 +108,14 @@
 
 .second-welcome .clas a{
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 }
 
 .group > img{
-    width: 300px;
-    padding-bottom: 40px;
-    margin-right: 5%; 
+    margin-top: 90px;
     display: flex;
     width: 300px;
-    height: 450px;
-    justify-content: space-between;
+    height: auto;
 }
 
  /* optional work style 1  */
@@ -125,7 +123,7 @@
  .box-parent{
     display: flex;
      margin: auto;
-    width: 950px;
+    width: 1000px;
     height: 300px; 
     justify-content: space-between;
     padding-left: 50px;
@@ -133,7 +131,7 @@
  }
  .box-child{
     margin-top: 95px;
-    padding-right: 10px;
+    margin-right: 70px;
  }
  .box-child > p > span{
     color: #F00;
@@ -195,8 +193,8 @@
 /* park hotel section style  */
 
 .new-park{
-    width: 800px;
-    height: 200px;
+    width: 1000px;
+    height: auto;
     padding: 100px; 
     margin: 100px auto;
     text-align: center;
@@ -258,7 +256,7 @@
 }
 
 .parent-container{
-    width: 1000px;
+    width: 1100px;
     margin: auto;
 }
 
@@ -282,15 +280,18 @@
  /* forth section started  */
 
  .forth-one{
-    width: 80%;
+    width: 1100px;
+    height: auto;
     margin: auto;
     border-radius: 16px;
-    padding: 50px 0px;
+    padding-top: 50px;
     background: rgba(255, 0, 0, 0.05);
  }
 
  .forth-img{
-    padding: 0 410px;
+    margin-left: 490px;
+    width: 100px;
+    height: auto;
  }
  .subscriber > h4{
     padding-top: 10px;
